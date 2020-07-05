@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>VR view</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+	<meta content="yes" name="mobile-web-app-capable">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="dialog" id="error">
+		<div class="wrap">
+			<h1 class="title">Error</h1>
+			<p class="message">An unknown error occurred.</p>
+		</div>
+	</div>
+	<div id="play-overlay"><img src="images/ic_play_arrow_white_24dp.svg"></div><a href="http://g.co/vr/view" id="watermark" target="_blank"><img src="images/ic_info_outline_black_24dp.svg"></a> 
+	<script>
+	   WebVRConfig = {
+	     BUFFER_SCALE: 0.5,
+	     TOUCH_PANNER_DISABLED: false
+	   };
+	</script> 
+	<script src="build/three.js">
+	</script> 
+	<script src="build/embed.js">
+	</script>
+</body>
+</html>
