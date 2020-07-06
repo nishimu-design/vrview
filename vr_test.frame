@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html lang="en"      dir="ltr">
+  <head>
+    <title>Google Developers</title>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="iframe" content="framebox">
+              <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons">
+      <link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v41c318553034f08027fad868d3efbb4f6ddb57036dd971efa1192efa8d03385a/developers/css/app.css">
+        <script>
+      (function(){
+        window.framebox=window.framebox||function(){(window.framebox.q=window.framebox.q||[]).push(arguments)};
+                var a={},b=function(){(window.framebox.dq=window.framebox.dq||[]).push(arguments)};
+        ['getUrl','handleLinkClicksInParent','initAutoSize','navigate','pushState','replaceState',
+         'requestQueryAndFragment','sendEvent','updateSize'].forEach(function(x){a[x]=function(){
+          b(x,arguments)}});
+        window.devsite={framebox:{AutoSizeClient:a}};
+      })();
+            (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+        t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+        E.parentNode.insertBefore(t,E);})(window, document, 'script',
+        'https://www.gstatic.com/devrel-devsite/prod/v41c318553034f08027fad868d3efbb4f6ddb57036dd971efa1192efa8d03385a/js/app_loader.js', '[1,"en",null,"/js/devsite_app.js","https://www.gstatic.com/devrel-devsite/prod/v41c318553034f08027fad868d3efbb4f6ddb57036dd971efa1192efa8d03385a","https://www.gstatic.com/devrel-devsite/prod/v41c318553034f08027fad868d3efbb4f6ddb57036dd971efa1192efa8d03385a/developers","https://developers-dot-devsite-v2-prod.appspot.com",null,1,null,1]')
+            </script>
+      </head>
+    <body style="height: auto; overflow: hidden; padding: 20px;">
+    <meta name="auto_height" content="true" /><meta name="auto_width" content="true" />
+<div id="vrview"></div>
+<script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+
+<script>
+  window.addEventListener('load', onVrViewLoad)
+  function onVrViewLoad() {
+    var vrView = new VRView.Player('#vrview', {
+      width: '100%',
+      height: 300,
+      image: 'https://nishimu-design.github.io/vrview/images/vr_test.JPG',
+      is_stereo: true
+    });
+  }
+</script>
+
+
+  </body>
+</html>
